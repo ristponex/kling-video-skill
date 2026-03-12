@@ -37,18 +37,18 @@ kling-video "<prompt>" [options]
 ## Models
 
 ### Text-to-Video
-- `kwaivgi/kling-v3.0-pro/text-to-video` — Best quality ($0.204/req)
-- `kwaivgi/kling-v3.0-std/text-to-video` — Balanced ($0.102/req)
-- `kwaivgi/kling-v2.6-pro/text-to-video` — Proven ($0.168/req)
-- `kwaivgi/kling-v2.5-turbo-pro/text-to-video` — Fast ($0.084/req)
-- `kwaivgi/kling-o3-pro/text-to-video` — Smooth motion ($0.204/req)
-- `kwaivgi/kling-o1/text-to-video` — Cost-effective ($0.102/req)
+- `kwaivgi/kling-v3.0-pro/text-to-video` — Best quality ($0.204/s)
+- `kwaivgi/kling-v3.0-std/text-to-video` — Balanced ($0.102/s)
+- `kwaivgi/kling-v2.6-pro/text-to-video` — Proven ($0.168/s)
+- `kwaivgi/kling-v2.5-turbo-pro/text-to-video` — Fast ($0.084/s)
+- `kwaivgi/kling-o3-pro/text-to-video` — Smooth motion ($0.204/s)
+- `kwaivgi/kling-o1/text-to-video` — Cost-effective ($0.102/s)
 
 ### Image-to-Video
-- `kwaivgi/kling-v3.0-pro/image-to-video` — Best quality ($0.204/req)
-- `kwaivgi/kling-v3.0-std/image-to-video` — Balanced ($0.102/req)
-- `kwaivgi/kling-v2.6-pro/image-to-video` — Proven ($0.168/req)
-- `kwaivgi/kling-o3-pro/image-to-video` — Smooth motion ($0.204/req)
+- `kwaivgi/kling-v3.0-pro/image-to-video` — Best quality ($0.204/s)
+- `kwaivgi/kling-v3.0-std/image-to-video` — Balanced ($0.102/s)
+- `kwaivgi/kling-v2.6-pro/image-to-video` — Proven ($0.168/s)
+- `kwaivgi/kling-o3-pro/image-to-video` — Smooth motion ($0.204/s)
 
 ## Usage Examples
 

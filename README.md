@@ -177,23 +177,23 @@ kling-video "Add dramatic lightning flashes to the sky" \
 
 Kling AI offers multiple model variants through Atlas Cloud, each optimized for different use cases:
 
-| Model | Model ID | Price per Request | Speed | Quality | Best For |
-|-------|----------|------------------|-------|---------|----------|
-| **Kling v3.0 Pro** | `kwaivgi/kling-v3.0-pro/text-to-video` | $0.204 | Medium | Highest | Production-quality cinematic videos |
-| **Kling v3.0 Standard** | `kwaivgi/kling-v3.0-std/text-to-video` | $0.102 | Fast | High | Balanced quality and speed |
-| **Kling v2.6 Pro** | `kwaivgi/kling-v2.6-pro/text-to-video` | $0.168 | Medium | Very High | Proven reliability, complex scenes |
-| **Kling v2.5 Turbo Pro** | `kwaivgi/kling-v2.5-turbo-pro/text-to-video` | $0.084 | Very Fast | Good | Rapid iteration, previews |
-| **Kling O3 Pro** | `kwaivgi/kling-o3-pro/text-to-video` | $0.204 | Medium | Highest | Optimized motion, smooth animation |
-| **Kling O1** | `kwaivgi/kling-o1/text-to-video` | $0.102 | Fast | High | General purpose, cost-effective |
+| Model | Model ID | Starting Price per Second | Speed | Quality | Best For |
+|-------|----------|--------------------------|-------|---------|----------|
+| **Kling v3.0 Pro** | `kwaivgi/kling-v3.0-pro/text-to-video` | from $0.204/s | Medium | Highest | Production-quality cinematic videos |
+| **Kling v3.0 Standard** | `kwaivgi/kling-v3.0-std/text-to-video` | from $0.102/s | Fast | High | Balanced quality and speed |
+| **Kling v2.6 Pro** | `kwaivgi/kling-v2.6-pro/text-to-video` | from $0.168/s | Medium | Very High | Proven reliability, complex scenes |
+| **Kling v2.5 Turbo Pro** | `kwaivgi/kling-v2.5-turbo-pro/text-to-video` | from $0.084/s | Very Fast | Good | Rapid iteration, previews |
+| **Kling O3 Pro** | `kwaivgi/kling-o3-pro/text-to-video` | from $0.204/s | Medium | Highest | Optimized motion, smooth animation |
+| **Kling O1** | `kwaivgi/kling-o1/text-to-video` | from $0.102/s | Fast | High | General purpose, cost-effective |
 
 ### Image-to-Video Variants
 
-| Model | Model ID | Price per Request |
-|-------|----------|------------------|
-| **Kling v3.0 Pro i2v** | `kwaivgi/kling-v3.0-pro/image-to-video` | $0.204 |
-| **Kling v3.0 Std i2v** | `kwaivgi/kling-v3.0-std/image-to-video` | $0.102 |
-| **Kling v2.6 Pro i2v** | `kwaivgi/kling-v2.6-pro/image-to-video` | $0.168 |
-| **Kling O3 Pro i2v** | `kwaivgi/kling-o3-pro/image-to-video` | $0.204 |
+| Model | Model ID | Starting Price per Second |
+|-------|----------|--------------------------|
+| **Kling v3.0 Pro i2v** | `kwaivgi/kling-v3.0-pro/image-to-video` | from $0.204/s |
+| **Kling v3.0 Std i2v** | `kwaivgi/kling-v3.0-std/image-to-video` | from $0.102/s |
+| **Kling v2.6 Pro i2v** | `kwaivgi/kling-v2.6-pro/image-to-video` | from $0.168/s |
+| **Kling O3 Pro i2v** | `kwaivgi/kling-o3-pro/image-to-video` | from $0.204/s |
 
 > **Default model:** `kwaivgi/kling-v3.0-pro/text-to-video`
 
@@ -401,14 +401,16 @@ done
 
 ### Kling AI on Atlas Cloud
 
-| Model Variant | Price per Request | Duration | Resolution |
-|--------------|-------------------|----------|------------|
-| Kling v3.0 Pro | **$0.204** | 5-10s | Up to 4K |
-| Kling v3.0 Standard | $0.102 | 5-10s | Up to 1080p |
-| Kling v2.6 Pro | $0.168 | 5-10s | Up to 1080p |
-| Kling v2.5 Turbo Pro | $0.084 | 5s | Up to 1080p |
-| Kling O3 Pro | $0.204 | 5-10s | Up to 4K |
-| Kling O1 | $0.102 | 5-10s | Up to 1080p |
+| Model Variant | Starting Price per Second | Duration | Resolution |
+|--------------|--------------------------|----------|------------|
+| Kling v3.0 Pro | **from $0.204/s** | 5-10s | Up to 4K |
+| Kling v3.0 Standard | from $0.102/s | 5-10s | Up to 1080p |
+| Kling v2.6 Pro | from $0.168/s | 5-10s | Up to 1080p |
+| Kling v2.5 Turbo Pro | from $0.084/s | 5s | Up to 1080p |
+| Kling O3 Pro | from $0.204/s | 5-10s | Up to 4K |
+| Kling O1 | from $0.102/s | 5-10s | Up to 1080p |
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 ### Volume Estimates
 
@@ -424,10 +426,10 @@ Atlas Cloud offers a **25% bonus on your first recharge** (up to $100 bonus):
 
 | Top-Up | Bonus (25%) | Total Credits | Effective Rate (v3.0 Pro) |
 |--------|-------------|---------------|--------------------------|
-| $10 | $2.50 | $12.50 | $0.163/video |
-| $50 | $12.50 | $62.50 | $0.163/video |
-| $100 | $25.00 | $125.00 | $0.163/video |
-| $400 | $100.00 | $500.00 | $0.163/video |
+| $10 | $2.50 | $12.50 | from $0.163/s |
+| $50 | $12.50 | $62.50 | from $0.163/s |
+| $100 | $25.00 | $125.00 | from $0.163/s |
+| $400 | $100.00 | $500.00 | from $0.163/s |
 
 ---
 
@@ -435,7 +437,7 @@ Atlas Cloud offers a **25% bonus on your first recharge** (up to $100 bonus):
 
 This workflow is optimized for Atlas Cloud. Move from experiment to enterprise-ready scale.
 
-- **Production-Ready**: 20+ Kling model variants, $0.204/video
+- **Production-Ready**: 20+ Kling model variants, from $0.204/s
 - **Enterprise Security**: SOC I & II Certified | HIPAA Compliant
 - **Zero Maintenance**: Serverless architecture — focus on your product, not the servers
 - **25% Bonus**: First recharge bonus up to $100

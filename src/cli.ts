@@ -165,12 +165,12 @@ Examples:
   kling-video "City at night" --duration 10 --resolution 4k --audio
 
 Models:
-  kwaivgi/kling-v3.0-pro/text-to-video    $0.204/req (default)
-  kwaivgi/kling-v3.0-std/text-to-video    $0.102/req
-  kwaivgi/kling-v2.6-pro/text-to-video    $0.168/req
-  kwaivgi/kling-v2.5-turbo-pro/text-to-video  $0.084/req
-  kwaivgi/kling-o3-pro/text-to-video      $0.204/req
-  kwaivgi/kling-o1/text-to-video          $0.102/req
+  kwaivgi/kling-v3.0-pro/text-to-video    from $0.204/s (default)
+  kwaivgi/kling-v3.0-std/text-to-video    from $0.102/s
+  kwaivgi/kling-v2.6-pro/text-to-video    from $0.168/s
+  kwaivgi/kling-v2.5-turbo-pro/text-to-video  from $0.084/s
+  kwaivgi/kling-o3-pro/text-to-video      from $0.204/s
+  kwaivgi/kling-o1/text-to-video          from $0.102/s
   `);
 }
 
