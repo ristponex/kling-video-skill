@@ -2,13 +2,13 @@
 
 # Kling Video Skill
 
-**A Claude Code skill for generating videos using Kling AI via Atlas Cloud API**
+**An open AI agent skill for generating videos using Kling AI via Atlas Cloud API**
 
 [![npm version](https://img.shields.io/npm/v/kling-video-skill.svg)](https://www.npmjs.com/package/kling-video-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/thoughtincode/kling-video-skill?style=social)](https://github.com/thoughtincode/kling-video-skill)
 
-Generate stunning AI videos directly from your terminal or through Claude Code natural language commands. Powered by Kling AI's state-of-the-art video generation models, accessible through Atlas Cloud's unified API.
+Generate stunning AI videos directly from your terminal or through AI coding agents (Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, and more). Powered by Kling AI's state-of-the-art video generation models, accessible through Atlas Cloud's unified API.
 
 </div>
 
@@ -19,7 +19,7 @@ Generate stunning AI videos directly from your terminal or through Claude Code n
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Claude Code Integration](#claude-code-integration)
+- [Agent Skill Integration](#agent-skill-integration)
 - [CLI Usage](#cli-usage)
 - [Model Variants](#model-variants)
 - [Options Reference](#options-reference)
@@ -42,7 +42,7 @@ Generate stunning AI videos directly from your terminal or through Claude Code n
 - **Multi-Shot Generation** — Generate multi-scene videos with consistent characters and settings
 - **4K Support** — Output videos in resolutions up to 4096x4096
 - **Native Audio Generation** — Generate synchronized audio tracks alongside video
-- **Claude Code Skill** — Seamless integration with Claude Code via `/init` for natural language video generation
+- **Agent Skill** — Works with 15+ AI coding agents including Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more
 
 ---
 
@@ -90,14 +90,18 @@ ATLASCLOUD_API_KEY=your_api_key_here
 
 ---
 
-## Claude Code Integration
+## Agent Skill Integration
 
-This repository is designed to work as a **Claude Code skill**. After cloning, run `/init` in Claude Code to load the skill from `CLAUDE.md`.
+This repository is designed to work as an **open agent skill** compatible with 15+ AI coding agents. Install it once and use it across platforms.
+
+### Supported Agents
+
+Claude Code, Cursor, OpenAI Codex, GitHub Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and more.
 
 ### How It Works
 
 1. Clone this repo and run `bun link`
-2. In Claude Code, run `/init` to load the skill
+2. Load the skill in your agent (e.g., run `/init` in Claude Code, or follow your agent's skill loading process)
 3. Use natural language to generate videos:
 
 ```
@@ -112,7 +116,7 @@ This repository is designed to work as a **Claude Code skill**. After cloning, r
 "Make a 10-second cinematic video of a futuristic city at night using Kling v3.0 Pro"
 ```
 
-Claude Code will automatically construct and execute the appropriate `kling-video` CLI command based on your natural language request.
+Your AI coding agent will automatically construct and execute the appropriate `kling-video` CLI command based on your natural language request.
 
 ---
 
@@ -505,6 +509,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built for the Claude Code ecosystem. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).**
+**Built for the open agent skills ecosystem — works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, Windsurf, OpenCode, Kiro, and 15+ AI coding agents. Powered by [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683).**
 
 </div>

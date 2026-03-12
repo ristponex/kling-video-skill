@@ -1,7 +1,7 @@
 {
   "name": "kling-video-skill",
   "version": "1.0.0",
-  "description": "A Claude Code skill for generating videos using Kling AI via Atlas Cloud API",
+  "description": "AI agent skill for generating videos using Kling AI via Atlas Cloud API",
   "main": "src/cli.ts",
   "bin": {
     "kling-video": "./src/cli.ts"
@@ -15,7 +15,15 @@
     "ai",
     "text-to-video",
     "image-to-video",
+    "agent-skill",
     "claude-code",
+    "cursor",
+    "codex",
+    "copilot",
+    "gemini-cli",
+    "windsurf",
+    "opencode",
+    "kiro",
     "skill",
     "atlas-cloud"
   ],
